@@ -175,6 +175,10 @@ p {
   padding: 2rem;
   font-size: 15px;
 }
+.navbar a:hover {
+  background-color: black;
+  color: white;
+}
 footer {
   color: #22283B;
   background: #f4f4f4;
@@ -279,8 +283,8 @@ footer {
   text-decoration: none;
 }
 .home .walk .walk-text .btn a:hover {
-  background-color: #0fa8f0;
-  color: black;
+  background-color: #045880;
+  color: #fa4008;
 }
 @media (max-width: 500px) {
   .home .walk .walk-text .btn a {
