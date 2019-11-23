@@ -1,7 +1,29 @@
 // Home Content
+ 
+
+
 
 .home {
-
+  @media @phone {
+    .space-images{
+      .sky{
+        display:none;
+      }
+      .launch{
+        display:none;
+      }
+      .blast{
+        width: 100%;
+      }
+    }
+    .walk{
+      flex-direction: column-reverse;
+      
+    }
+   }
+  
+  
+  
   .intro {
 
     h2 {
@@ -58,7 +80,7 @@
       }
 
       .btn {
-        .button(2rem, 4rem);
+        .signUp(3rem, 9rem);
       }
     }
 
@@ -84,3 +106,4 @@
     font-size: 3rem;
   }
 }
+

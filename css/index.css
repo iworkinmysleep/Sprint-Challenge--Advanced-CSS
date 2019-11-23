@@ -179,6 +179,20 @@ footer {
   justify-content: center;
   align-items: center;
 }
+@media (max-width: 500px) {
+  .home .space-images .sky {
+    display: none;
+  }
+  .home .space-images .launch {
+    display: none;
+  }
+  .home .space-images .blast {
+    width: 100%;
+  }
+  .home .walk {
+    flex-direction: column-reverse;
+  }
+}
 .home .intro h2 {
   padding: 15px;
 }
@@ -220,6 +234,17 @@ footer {
 }
 .home .walk .walk-text p {
   margin-bottom: 26px;
+}
+.home .walk .walk-text .btn {
+  display: block;
+  background-color: #263f3f;
+  color: white;
+  height: 3rem;
+  width: 9rem;
+  text-align: center;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 16px;
 }
 .home .walk .walk-img {
   width: 46%;
